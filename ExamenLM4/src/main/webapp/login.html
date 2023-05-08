@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<script src="script/main.js"></script>
+<link rel="stylesheet" href="common/style.css">
+</head>
+<body>
+<h2>Iniciar sesión</h2>
+<form>
+<p>
+<label>Email:</label>
+<input type="text" name="email" placeholder="Email">
+</p>
+<p>
+<label>Contraseña:</label>
+<input type="text" name="password" placeholder="Contraseña">
+</p>
+<p>
+<input type="button" value="Login" class="btn" onclick="inicioSesion(this.form)" />
+</p>
+<a href="registro.html">Crear cuenta</a>
+<br><br><br>
+<input type="button" value="Recuperar contraseña" class="btn" onclick="recuperacion(this.form)" />
+</form>
+</body>
+</html>
